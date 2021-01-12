@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template application="eMedia CS" version="7.00.1577">
+  <identifier>MjAyMTAxMTExMTQ2Mjg3NDZn</identifier>
+  <created>2021-01-11 12:46:28</created>
+  <modified>2021-01-12 10:15:08</modified>
+  <counter value="6" increment="1" format="" />
+  <print count="5" date="2021-01-12 10:14:26" />
+  <defaultPrinter>Evolis Pebble</defaultPrinter>
+  <coolreader>
+    <use-keyboardport>true</use-keyboardport>
+    <use-comport>false</use-comport>
+    <use-contactless>false</use-contactless>
+    <printer-management>ask for printer</printer-management>
+  </coolreader>
+  <database>
+    <engine>none</engine>
+    <provider></provider>
+    <dataSource></dataSource>
+    <initialCatalog></initialCatalog>
+    <userId></userId>
+    <password></password>
+    <noRecordCount>False</noRecordCount>
+    <connectionTimeout>5</connectionTimeout>
+    <commandTimeout>10</commandTimeout>
+    <connectionStringSuffix></connectionStringSuffix>
+    <isMySQL>false</isMySQL>
+    <commandType>Table</commandType>
+    <tableViewName></tableViewName>
+    <commandText></commandText>
+    <cursorType>keyset</cursorType>
+    <cursorLocation>client</cursorLocation>
+    <authorizations add="False" modify="False" delete="False" />
+    <fields />
+    <lockedFields />
+    <sort field="" direction="" />
+  </database>
+  <magnetic-strip>
+    <encoding>ISO</encoding>
+    <visible>auto</visible>
+    <iso-track-1>
+      <encoding-element name="Formula" kind="formula" length="any" size="0" alignment="left" format=""></encoding-element>
+    </iso-track-1>
+    <iso-track-2>
+      <encoding-element name="Formula" kind="formula" length="any" size="0" alignment="left" format=""></encoding-element>
+    </iso-track-2>
+    <iso-track-3>
+      <encoding-element name="Formula" kind="formula" length="any" size="0" alignment="left" format=""></encoding-element>
+    </iso-track-3>
+    <jis-track>
+      <encoding-element name="Formula" kind="formula" length="any" size="0" alignment="left" format=""></encoding-element>
+    </jis-track>
+  </magnetic-strip>
+  <smartcard type="external">
+    <encoding>none</encoding>
+    <visible>automatic</visible>
+    <left>8.25</left>
+    <top>15.82</top>
+    <width>13.62</width>
+    <height>10.28</height>
+    <profile></profile>
+    <content-formula></content-formula>
+  </smartcard>
+  <contactless type="external">
+    <encoding>none</encoding>
+    <profile></profile>
+    <content-formula></content-formula>
+  </contactless>
+  <sides>
+    <side location="Front">
+      <orientation>Landscape</orientation>
+      <visible>True</visible>
+      <zoom>1.5</zoom>
+      <designmodeleft>247</designmodeleft>
+      <designmodetop>5</designmodetop>
+      <designmodewidth>850</designmodewidth>
+      <designmodeheight>680</designmodeheight>
+      <operatingmodeleft>59</operatingmodeleft>
+      <operatingmodetop>145</operatingmodetop>
+      <background color="white" storeas="none" picture="" mode="Printed" />
+      <grid type="dots" size="2" align="False" color="gray" opacity="100" />
+    </side>
+    <side location="Back">
+      <orientation>Landscape</orientation>
+      <visible>False</visible>
+      <zoom>1.5</zoom>
+      <designmodeleft>322</designmodeleft>
+      <designmodetop>90</designmodetop>
+      <designmodewidth>850</designmodewidth>
+      <designmodeheight>680</designmodeheight>
+      <operatingmodeleft>110</operatingmodeleft>
+      <operatingmodetop>434</operatingmodetop>
+      <background color="white" storeas="none" picture="" mode="Printed" />
+      <grid type="dots" size="2" align="False" color="gray" opacity="100" />
+    </side>
+  </sides>
+  <objects location="front">
+    <object type="Picture" name="Picture1">
+      <layer>1</layer>
+      <left unit="iPos" depth="18">1.27</left>
+      <top unit="iPos" depth="50">99.71</top>
+      <width unit="iPos" depth="11">231.91</width>
+      <height unit="iPos" depth="44">751.81</height>
+      <source>User</source>
+      <store-as>file</store-as>
+      <picture>C:\Users\Lenovo\Videos\Captures\Alla.jpg</picture>
+      <zoom level="34.37977" />
+      <caption-order>8</caption-order>
+    </object>
+    <object type="Text" Name="Text1">
+      <layer>2</layer>
+      <left unit="iPos" depth="3">507.98</left>
+      <top unit="iPos" depth="5">60.88</top>
+      <width unit="iPos" depth="13">690.9</width>
+      <height unit="iPos" depth="35">47.48</height>
+      <content-fixed>Cartão de Identidade - Eu iria Baixo</content-fixed>
+      <font face="Comic Sans MS" size="10" bold="True" />
+      <caption-order>7</caption-order>
+      <border type="Solid" width="5" color="#FFFF80" />
+      <autoSize>True</autosize>
+    </object>
+    <object type="Text" Name="Text2">
+      <layer>3</layer>
+      <left unit="iPos" depth="53">905.91</left>
+      <top unit="iPos" depth="43">60.12</top>
+      <width unit="iPos" depth="11">620.63</width>
+      <content-fixed>Designação: João Gouveia</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>5</caption-order>
+    </object>
+    <object type="Text" Name="Text3">
+      <layer>4</layer>
+      <left unit="iPos" depth="8">707.42</left>
+      <top unit="iPos" depth="0">406.6</top>
+      <width unit="iPos" depth="23">574.16</width>
+      <height unit="iPos" depth="46">58.8</height>
+      <content-fixed>Data de Nascimento: 1927</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>4</caption-order>
+    </object>
+    <object type="Text" Name="Text4">
+      <layer>5</layer>
+      <left unit="iPos" depth="40">101.39</left>
+      <top unit="iPos" depth="45">917.99</top>
+      <width unit="iPos" depth="25">617.75</width>
+      <content-fixed>Órgãos Genitais: Sim</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>3</caption-order>
+    </object>
+    <object type="Text" Name="Text5">
+      <layer>6</layer>
+      <left unit="iPos" depth="57">903.02</left>
+      <top unit="iPos" depth="45">500.23</top>
+      <width unit="iPos" depth="0">803.43</width>
+      <content-fixed>Altura: 154 cm</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>1</caption-order>
+    </object>
+    <object type="Text" Name="Text8">
+      <layer>7</layer>
+      <left unit="iPos" depth="40">105.56</left>
+      <top unit="iPos" depth="23">693.83</top>
+      <width unit="iPos" depth="5">222.42</width>
+      <content-fixed>Estuprador Registrado: Sim</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>9</caption-order>
+    </object>
+    <object type="Text" Name="Text9">
+      <layer>8</layer>
+      <left unit="iPos" depth="17">903.4</left>
+      <top unit="iPos" depth="30">920.54</top>
+      <width unit="iPos" depth="6">565.61</width>
+      <content-fixed>Distância permitida mais</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>11</caption-order>
+    </object>
+    <object type="Text" Name="Text10">
+      <layer>9</layer>
+      <left unit="iPos" depth="4">304.76</left>
+      <top unit="iPos" depth="37">872.9</top>
+      <width unit="iPos" depth="38">750.54</width>
+      <content-fixed>próxima do jardim de</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>10</caption-order>
+    </object>
+    <object type="Text" Name="Text11">
+      <layer>10</layer>
+      <left unit="iPos" depth="17">908.61</left>
+      <top unit="iPos" depth="14">868.21</top>
+      <content-fixed>infância: 50 m</content-fixed>
+      <font face="Tahoma" size="8" />
+      <caption-order>6</caption-order>
+    </object>
+    <object type="Picture" name="Picture2">
+      <layer>11</layer>
+      <left unit="iPos" depth="39">772.69</left>
+      <top unit="iPos" depth="32">622.61</top>
+      <width unit="iPos" depth="19">782.3</width>
+      <height unit="iPos" depth="7">905.73</height>
+      <source>User</source>
+      <store-as>file</store-as>
+      <picture>C:\Users\Lenovo\Videos\Captures\idLogo.jpg</picture>
+      <zoom level="19.29134" />
+      <caption-order>2</caption-order>
+    </object>
+  </objects>
+  <objects location="back" />
+</template>
